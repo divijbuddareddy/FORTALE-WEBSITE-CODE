@@ -67,7 +67,7 @@ body{
 }
 
 .logo{
-  width:240px;
+  width:300px;
   height:auto;
 }
 
@@ -590,6 +590,7 @@ footer{
   box-shadow:0 8px 25px rgba(0,0,0,0.25);
   z-index:999;
   transition:0.3s ease;
+  animation:whatsappFloat 2.5s infinite ease-in-out;
 }
 
 .floating-whatsapp img{
@@ -598,6 +599,22 @@ footer{
 
 .floating-whatsapp:hover{
   transform:scale(1.1);
+}
+
+@keyframes whatsappFloat{
+
+  0%{
+    transform:translateY(0px);
+  }
+
+  50%{
+    transform:translateY(-8px);
+  }
+
+  100%{
+    transform:translateY(0px);
+  }
+
 }
 
 /* MOBILE */
