@@ -106,6 +106,26 @@ body{
   color:#f4b52a;
 }
 
+/* CONTACT BUTTON */
+
+.nav-links a:last-child{
+  background:#f4b52a;
+  color:white !important;
+  padding:10px 22px;
+  border-radius:12px;
+  transition:0.3s ease;
+}
+
+.nav-links a:last-child::after{
+  display:none;
+}
+
+.nav-links a:last-child:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 18px rgba(244,181,42,0.35);
+  color:white !important;
+}
+
 /* HERO */
 
 .hero{
